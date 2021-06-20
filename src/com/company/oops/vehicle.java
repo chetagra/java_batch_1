@@ -1,9 +1,11 @@
 package com.company.oops;
 
 public class vehicle {
-    String color="blue";
+    String color="red";
     String model="x4";
-    int price=2000;
+    int price=3000;
+
+
 
     public void brake(){
         System.out.println("stop's vehicle from moving");
@@ -19,7 +21,7 @@ public class vehicle {
         System.out.println(v1.model);
         System.out.println(v1.price);
         v1.color="blue";
-        v1.price=3000;
+        v1.price=4000;
         System.out.println(v1.color);
         System.out.println(v1.price);
         v1.brake();
@@ -28,5 +30,6 @@ public class vehicle {
 
         vehicle v3= new vehicle();
         System.out.println(v3.color);
+        System.out.println(v3.price);
     }
 }
