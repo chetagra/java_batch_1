@@ -2,16 +2,24 @@ package com.company;
 
 public class Arethmatic_operators {
     public static void main(String[] args) {
-        double a=8.25;
-        double b=7.06;
-
-        double c= a%b;
+        int a = 1;
+        int b= 3;
+        int c = a+b ;
         System.out.println(c);
 
-        double d=a+b;
+        int d = b-a;
         System.out.println(d);
 
-        double e=a*b;
+        int e = b*a;
         System.out.println(e);
+
+        int f = b/a;
+        System.out.println(f);
+
+        int g = b%a;
+        System.out.println(g);
+
     }
+
+
 }
