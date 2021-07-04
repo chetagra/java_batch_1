@@ -16,4 +16,5 @@ public class area_rect {
         int area= l*b;
         return  area;
     }
+
 }
